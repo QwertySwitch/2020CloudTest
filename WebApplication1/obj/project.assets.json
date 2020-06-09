@@ -11914,11 +11914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\artfj\\Desktop\\2020CloudTest\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\artfj\\Desktop\\클라우드\\2020CloudTest\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\artfj\\Desktop\\2020CloudTest\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\artfj\\Desktop\\클라우드\\2020CloudTest\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\artfj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\artfj\\Desktop\\2020CloudTest\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\artfj\\Desktop\\클라우드\\2020CloudTest\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

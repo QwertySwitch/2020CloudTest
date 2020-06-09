@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JJfv6F/IMxRR/F2X2Tv9DZqvPrN+UAiteDEX34d9Z9dIG+c2c+5QDLP7a+VKrTL03BV5VbDR/Tzb+8br42s90w==",
+  "dgSpecHash": "oodG7pPN/odp6IecA0wfO+qzK/ZhC3r4mF3/CHAvb40WvaClWqSYWzZlzQL/3d4+9wTpbJ5iN6BgGH0bJtZKIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\artfj\\Desktop\\2020CloudTest\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\artfj\\Desktop\\클라우드\\2020CloudTest\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\artfj\\.nuget\\packages\\awssdk.core\\3.3.107.3\\awssdk.core.3.3.107.3.nupkg.sha512",
     "C:\\Users\\artfj\\.nuget\\packages\\awssdk.dynamodbv2\\3.3.106.11\\awssdk.dynamodbv2.3.3.106.11.nupkg.sha512",

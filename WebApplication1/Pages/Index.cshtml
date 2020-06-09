@@ -92,14 +92,14 @@
     }
 </style>
 
-<script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.16.min.js"></script>
+<script src="https://sdk.amazonaws.com/js/aws-sdk-2.685.0.min.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=879b349c5d1c43ed76d183cea539a546&libraries=services"></script>
 <script>
     AWS.config.update({
         region: "ap-northeast-2",
         //endpoint: 'https://dynamodb.ap-northeast-2.amazonaws.com',
-        accessKeyId: "AKIA366CUESD7BIROQUY",
-        secretAccessKey: "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"
+        accessKeyId: "AKIAJYEE4AP24AKCDYEQ",
+        secretAccessKey: "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"
     });
 
     var docClient = new AWS.DynamoDB.DocumentClient();
@@ -121,6 +121,7 @@
 
         docClient.query(params, function (err, data) {
             if (err) {
+                //alert(err.toString());
             } else {
                 var items = JSON.stringify(data.Items, undefined, 2);
                 var a = items.toString();
@@ -373,7 +374,7 @@
             deleteCircleDot();
             deleteDistnce();
         }
-        map.setCenter(setPosition);
+        //map.setCenter(setPosition);
         checkDistance(distance,currentbell);
     }
 
