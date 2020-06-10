@@ -36,10 +36,10 @@ namespace WebApplication1
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "silladbserver.database.windows.net";
-                builder.UserID = "switch";
-                builder.Password = "kookang1234;;";
-                builder.InitialCatalog = "clouddbtest";
+                builder.DataSource = "DB서버";
+                builder.UserID = "유저이름";
+                builder.Password = "비밀번호";
+                builder.InitialCatalog = "DB이름";
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
